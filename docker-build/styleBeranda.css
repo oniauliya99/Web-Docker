@@ -1,0 +1,37 @@
+
+func{color: black}
+.a{font-size:13px}
+.b{font-family: calibri}
+
+input[type=text]{width: 100 %;
+box-sizing:border-box;
+border:2px solid #ccc;
+border-radius: 18px;
+font-size: 16px;
+background-color: white;
+background-position: 10px 10px;
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;}
+
+.button{background-color: #555555;
+	color: black;
+	border:none;
+	color: white;
+	padding: 5px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	font-family: calibri;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+aul{color: grey;}
+.a{font-size: 14px}
+.b{font-family: arial}
+ a{text-decoration: none;}
+.content:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}

@@ -1,0 +1,37 @@
+version: "3.8"
+
+
+services:
+  mysqldb:
+    image: mysql:latest
+    container_name: mysqldb
+    volumes:
+      - ./mysqldb:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE= gas
+      - MYSQL_USER= oni123
+      - MYSQL_PASSWORD= oni1234
+    networks:
+      backend:
+        aliases:
+          - mysqldb
+  app:
+    build:
+      context: '.'
+      dockerfile: Dockerfile
+    container_name: web-native
+    ports:
+      - 8000:8000
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - mysqldb
+    networks:
+      backend:
+        aliases:
+          - webnative
+
+networks:
+  backend:
+    name: backend-network

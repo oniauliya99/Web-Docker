@@ -1,0 +1,140 @@
+		body{
+			margin: 0;
+			padding: 0;
+			background: url(bg.png);
+			background-size: cover;
+			height: 100vh;
+			background-position: center;
+			font-family: sans-serif;
+		}
+		.loginbox{
+			width: 320px;
+			height: 420px;
+			background: url(pri.jpg) width=20 ;
+			color: #fff;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			padding: 80px 30px;
+			border-radius: 20px;
+		}
+		.avatar{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			position: absolute;
+			top: -50px;
+			left: calc(50% - 50px);
+		}
+
+		h1{
+			color: black;
+			margin: 0;
+			padding: 0 0 20px;
+			text-align: center;
+			font-size: 22px;
+		}
+
+		.loginbox p{
+			color: black;
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+		}
+
+		.loginbox input{
+			font-color:black;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		.loginbox input[type="text"], input[type="password"]{
+			border: none;
+			color: black;
+			border-bottom: 1px solid #fff;
+			background: transparent;
+			outline: none;
+			height: 40px;
+			color: black;
+			font-size: 16px;
+		}
+		.loginbox input[type="submit"]{
+			border: none;
+			color: black;
+			outline: none;
+			height: 40px;
+			background: grey;
+			color: black;
+			font-size: 18px;
+			border-radius: 20px;
+		}
+		.loginbox input[type="submit"]:hover{
+			cursor: pointer;
+			color: black;
+			background: #00FFFF;
+			color: black;
+		}
+		.loginbox a{
+			color: black;
+			text-decoration: none;
+			font-size: 12px;
+			line-height: 20px;
+			color: black;
+
+		}
+		#here{
+			color: black;
+			text-decoration: none;
+			font-size: 12px;
+			line-height: 20px;
+			color: blue;
+			font-style: bold;
+		}
+		#here:hover{
+			color: blue;
+		}
+		.loginbox a: hover{
+			color: white;
+		}
+		h6{
+			color: 	red;
+		}
+		
+func{color: black}
+.a{font-size:13px}
+.b{font-family: calibri}
+
+input[type=text]{width: 100 %;
+box-sizing:border-box;
+border:2px solid #ccc;
+border-radius: 18px;
+font-size: 16px;
+background-color: white;
+background-position: 10px 10px;
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;}
+
+.button{background-color: #555555;
+	color: black;
+	border:none;
+	color: white;
+	padding: 5px 60px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	font-family: calibri;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+aul{color: grey;}
+.a{font-size: 14px}
+.b{font-family: arial}
+ a{text-decoration: none;}
+.content:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
